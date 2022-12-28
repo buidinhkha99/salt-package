@@ -1,0 +1,29 @@
+{
+    "name": "bcs/salt",
+    "description": "A Laravel Salt tool.",
+    "keywords": [
+        "laravel",
+        "salt"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bcs\\Salt\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bcs\\Salt\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
